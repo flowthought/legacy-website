@@ -1,47 +1,60 @@
-@import url('https://fonts.googleapis.com/css?family=Cormorant:600|Playfair+Display:900|Crimson+Text:400');
+@import url('https://fonts.googleapis.com/css?family=Satisfy|Crimson+Text:400,700');
+/* Palette source: http://ethanschoonover.com/solarized */
+:root{
+  --base03:    #002b36;
+  --base02:    #073642;
+  --base01:    #586e75;
+  --base00:    #657b83;
+  --base0:     #839496;
+  --base1:     #93a1a1;
+  --base2:     #eee8d5;
+  --base3:     #fdf6e3;
+  --yellow:    #b58900;
+  --orange:    #cb4b16;
+  --red:       #dc322f;
+  --magenta:   #d33682;
+  --violet:    #6c71c4;
+  --blue:      #268bd2;
+  --cyan:      #2aa198;
+  --green:     #859900;
+}
 
 * {
   box-sizing: border-box;
 }
 
 body {
+  font-family: 'Crimson Text', serif;
   font-size: 100%;
+  font-weight: 400;
+  background-color: var(--base3);
+  /* background-color: var(--base03); */
+  color: var(--base01);
+  /* color: var(--base2); */
 }
 
-header{
-  margin: 2em 0em;
+.blogheader {
+  font-family: 'Satisfy', cursive;
+  font-size: 2.5em;
+  padding: 0.25em;
+  text-align: center;
+  background-color: var(--base2);
+  cursor: pointer;
+  /* box-shadow: 0px 2px 2px var(--base00); */
+}
+
+.post-title {
+  margin: 2em;
 }
 
 h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 2.5em;
+  font-size: 3em;
   font-weight: 700;
+  color: var(--base02);
   text-align: center;
-  /* letter-spacing: 1px; */
 }
 
-p {
-  font-family: 'Crimson Text', serif;
-  /* font-family: 'Crimson Text', serif; */
-  margin: 1em;
-  font-size: 1.5em;
-  line-height: 1.5em;
-  /* font-weight: 400; */
-  font-weight: 400;
-  /* letter-spacing: 0.5px; */
-  text-align: justify;
-}
-
-.header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  padding: 0.25em;
-  font-size: 2em;
-  font-family: 'Dancing Script', cursive;
-}
-
+/* Template */
 .post {
   display: flex;
   flex-direction: row;
@@ -51,28 +64,36 @@ p {
 .aside-left {
   order: 1;
   flex: 1 1 auto;
-  /* width: 25%; */
-  border: 5px solid green;
+  /* border: 5px solid var(--green); */
 }
 
 .main {
   order: 2;
+  padding: 5px;
 }
 
 .aside-right {
   order: 3;
   flex: 1 1 auto;
-  /* width: 25%; */
-  border: 5px solid blue;
+  /* border: 5px solid var(--blue); */
+}
+
+.main p {
+  font-size: 1.5em;
+  line-height: 1.25em;
+  letter-spacing: 0.5px;
+  text-align: justify;
+  margin: 0.5em;
 }
 
 @media screen and (min-width : 0px) and (max-width: 464px) {
   body {
     font-size: 14px;
   }
+
   .main {
     flex: 2 1 480px;
-    border: 5px solid gold;
+    /* border: 5px solid var(--red); */
     /* padding: 0.25em; */
   }
 }
@@ -80,17 +101,15 @@ p {
 @media screen and (min-width: 465px) and (max-width: 768px) {
   .main {
     flex: 2 1 768px;
-    border: 5px solid red;
+    /* border: 5px solid var(--orange); */
     /* padding: 0.25em; */
   }
 }
 
 @media screen and (min-width: 769px) {
-
   .main {
-    flex: 1 1 80em;
-    border: 5px solid blue;
+    flex: 1 1 500px;
+    /* border: 5px solid var(--yellow); */
     /* padding: 2em; */
   }
 }
-
