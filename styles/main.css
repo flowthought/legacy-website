@@ -38,6 +38,7 @@ body {
   padding: 0.25em;
   text-align: center;
   color: var(--base02);
+  /* background-color: var(--base02); */
 }
 
 /* Template */
@@ -55,6 +56,7 @@ body {
 
 .main {
   order: 2;
+  padding-top: 2em;
 }
 
 .aside-right {
@@ -118,4 +120,15 @@ body {
     /* border: 5px solid var(--yellow); */
     /* padding: 2em; */
   }
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1em;
+  background-color: var(--base2);
+  color: var(--base02);
+  text-align: center;
 }
