@@ -33,6 +33,10 @@ body {
   /* color: var(--base2); */
 }
 
+::selection {
+  background-color: var(--base2);
+}
+
 .blogheader {
   font-family: 'Satisfy', cursive;
   font-size: 2.5em;
@@ -89,6 +93,7 @@ h1 {
   line-height: 1.25em;
   /* letter-spacing: 0.5px; */
   text-align: justify;
+  padding: 1em;
 }
 
 .content p {
@@ -96,8 +101,8 @@ h1 {
 }
 
 .content blockquote {
-  margin-left: 1em;
-  padding-left: 1em;
+  margin: 1.5em 1em 1.5em 0.5em;
+  padding-left: 0.5em;
   border-left: 1px solid var(--base2);
   font-size: 0.75em;
   line-height: 1.5em;
@@ -127,6 +132,10 @@ li {
   margin: 0.5em 0em;
 }
 
+.fnlink {
+  color: var(--blue);
+}
+
 footer {
   /* position: absolute; */
   /* right: 0; */
@@ -136,6 +145,12 @@ footer {
   background-color: var(--base2);
   color: var(--base02);
   text-align: center;
+}
+
+.footertext {
+  position: relative;
+  bottom: 3px;
+  color: var(--orange);
 }
 
 @media screen and (min-width : 0px) and (max-width: 464px) {

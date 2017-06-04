@@ -87,6 +87,23 @@ body {
   color: var(--base01);
 }
 
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1em;
+  background-color: var(--base2);
+  color: var(--base02);
+  text-align: center;
+}
+
+.footertext {
+  position: relative;
+  bottom: 3px;
+  color: var(--orange);
+}
+
 @media screen and (min-width : 0px) and (max-width: 464px) {
   body {
     font-size: 12px;
@@ -120,15 +137,4 @@ body {
     /* border: 5px solid var(--yellow); */
     /* padding: 2em; */
   }
-}
-
-footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1em;
-  background-color: var(--base2);
-  color: var(--base02);
-  text-align: center;
 }
