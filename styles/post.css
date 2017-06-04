@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Satisfy|Crimson+Text:400,700');
+@import url('https://fonts.googleapis.com/css?family=Satisfy|Crimson+Text:400,700,400i');
 /* Palette source: http://ethanschoonover.com/solarized */
 :root{
   --base03:    #002b36;
@@ -84,20 +84,59 @@ h1 {
   background-color: var(--base02);
 }
 
+.main .content {
+  font-size: 1.5em;
+  line-height: 1.25em;
+  /* letter-spacing: 0.5px; */
+  text-align: justify;
+}
+
+.content p {
+  margin: 0.5em 0em;
+}
+
+.content blockquote {
+  margin-left: 1em;
+  padding-left: 1em;
+  border-left: 1px solid var(--base2);
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-style: italic;
+}
+
+.meta {
+  font-size: 0.75em;
+  line-height: 1.5em;
+}
+
 .footnoteRef {
   /* vertical-align: super; */
   font-size: 0.75em;
   text-decoration: underline;
 }
 
-.main p {
-  font-size: 1.5em;
-  line-height: 1.25em;
-  /* letter-spacing: 0.5px; */
-  text-align: justify;
-  margin: 0.5em;
+hr {
+  border: 2px solid var(--base2);
 }
 
+.footnotes {
+  padding: 1em 0em;
+}
+
+li {
+  margin: 0.5em 0em;
+}
+
+footer {
+  /* position: absolute; */
+  /* right: 0; */
+  /* bottom: 0; */
+  /* left: 0; */
+  padding: 1em;
+  background-color: var(--base2);
+  color: var(--base02);
+  text-align: center;
+}
 
 @media screen and (min-width : 0px) and (max-width: 464px) {
   body {

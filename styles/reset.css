@@ -53,3 +53,10 @@ a {
   text-decoration: none;
 }
 
+ol {
+  list-style: decimal inside;
+}
+
+em {
+  font-style: italic;
+}
