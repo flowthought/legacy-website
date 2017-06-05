@@ -37,7 +37,7 @@ body {
   background-color: var(--base2);
 }
 
-.blogheader {
+.blogtitle {
   font-family: 'Satisfy', cursive;
   font-size: 2.5em;
   padding: 0.25em;

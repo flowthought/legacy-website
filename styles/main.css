@@ -38,7 +38,8 @@ body {
   padding: 0.25em;
   text-align: center;
   color: var(--base02);
-  /* background-color: var(--base02); */
+  background-color: var(--base02);
+  color: var(--base3);
 }
 
 /* Template */
@@ -93,15 +94,16 @@ footer {
   bottom: 0;
   left: 0;
   padding: 1em;
-  background-color: var(--base2);
-  color: var(--base02);
+  /* background-color: var(--base2); */
+  background-color: var(--base02);
+  /* color: var(--base02); */
+  color: var(--base3);
   text-align: center;
 }
 
 .footertext {
   position: relative;
   bottom: 3px;
-  color: var(--orange);
 }
 
 @media screen and (min-width : 0px) and (max-width: 464px) {
