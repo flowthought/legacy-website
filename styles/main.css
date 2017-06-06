@@ -32,6 +32,10 @@ body {
   color: var(--base00);
 }
 
+::selection {
+  background-color: var(--base2);
+}
+
 .blogtitle {
   font-family: 'Satisfy', cursive;
   font-size: 5em;
@@ -108,17 +112,51 @@ hr {
   color: var(--base01);
 }
 
+.main .content {
+  font-size: 1.5em;
+  line-height: 1.2em;
+  /* letter-spacing: 0.5px; */
+  text-align: justify;
+  padding: 1em;
+}
+
+.content h1 {
+  margin: 0.5em;
+  font-size: 2em;
+  font-weight: 700;
+  color: var(--base02);
+  text-align: center;
+}
+
+.content blockquote {
+  margin: 1.5em 1em 1.5em 0.5em;
+  padding-left: 0.5em;
+  border-left: 1px solid var(--base2);
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-style: italic;
+}
+.content p {
+  margin: 0.5em 0em;
+}
+.content a {
+  color: var(--blue);
+}
+
 footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
   padding: 1em;
   /* background-color: var(--base2); */
   background-color: var(--base02);
   /* color: var(--base02); */
   color: var(--base3);
   text-align: center;
+}
+
+.bottomfix {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .footertext {
