@@ -44,7 +44,7 @@ body {
   text-align: center;
   background-color: var(--base2);
   cursor: pointer;
-  /* box-shadow: 0px 2px 2px var(--base00); */
+  /* box-shadow: 0px 3px 3px var(--base00); */
 }
 
 /* Template */
@@ -148,7 +148,7 @@ li {
   margin: 0.5em 0em;
 }
 
-.fnlink {
+.content a {
   color: var(--blue);
 }
 
@@ -161,6 +161,10 @@ footer {
   background-color: var(--base2);
   color: var(--base02);
   text-align: center;
+}
+
+footer a {
+  color: var(--blue);
 }
 
 .footertext {
