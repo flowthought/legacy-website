@@ -113,7 +113,6 @@ hr {
 }
 
 .main .content {
-  font-size: 1.5em;
   line-height: 1.2em;
   /* letter-spacing: 0.5px; */
   text-align: justify;
@@ -168,14 +167,16 @@ footer {
   body {
     font-size: 12px;
   }
+
   .blogtitle {
     font-size: 4em;
   }
 
   .main {
     flex: 2 1 480px;
-    /* border: 5px solid var(--red); */
-    /* padding: 0.25em; */
+  }
+  .main .content {
+    font-size: 1.75em;
   }
 }
 
@@ -186,15 +187,17 @@ footer {
 
   .main {
     flex: 2 1 768px;
-    /* border: 5px solid var(--orange); */
-    /* padding: 0.25em; */
+  }
+  .main .content {
+    font-size: 1.5em;
   }
 }
 
 @media screen and (min-width: 769px) {
   .main {
     flex: 1 1 500px;
-    /* border: 5px solid var(--yellow); */
-    /* padding: 2em; */
+  }
+  .main .content {
+    font-size: 1.5em;
   }
 }
