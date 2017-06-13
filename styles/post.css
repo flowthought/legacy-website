@@ -134,7 +134,7 @@ body {
 }
 
 .post-header {
-  margin: 2em 2em 1em 2em;
+  margin: 2em 1em 1em 1em;
 }
 
 h1 {
@@ -168,13 +168,13 @@ h1 {
 
 .main .content {
   font-size: 1.5em;
-  line-height: 1.25em;
+  line-height: 1.35em;
   /* letter-spacing: 0.5px; */
   text-align: justify;
 }
 
 .content p {
-  margin: 0.5em 0em;
+  margin: 0.75em 0em;
 }
 
 .content blockquote {

@@ -175,7 +175,7 @@ hr {
 }
 
 .main .content {
-  line-height: 1.25em;
+  line-height: 1.35em;
   /* letter-spacing: 0.5px; */
   text-align: justify;
   padding: 1em;
@@ -198,7 +198,7 @@ hr {
   font-style: italic;
 }
 .content p {
-  margin: 0.5em 0em;
+  margin: 0.75em 0em;
 }
 .content a {
   color: var(--blue);
