@@ -186,6 +186,13 @@ h1 {
   font-style: italic;
 }
 
+.content sup {
+  font-size: 0.75em;
+  font-weight: 700;
+  position: relative;
+  bottom: 3px;
+}
+
 .meta {
   font-size: 0.75em;
   line-height: 1.5em;
@@ -204,6 +211,7 @@ hr {
 .footnotes {
   padding: 1em 0em;
   font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 li {
