@@ -201,7 +201,6 @@ h1 {
 .footnoteRef {
   /* vertical-align: super; */
   font-size: 0.75em;
-  text-decoration: underline;
 }
 
 hr {
