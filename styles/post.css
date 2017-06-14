@@ -95,6 +95,9 @@ body {
   /* color: var(--base2); */
 }
 
+::-moz-selection {
+  background-color: var(--base2);
+}
 ::selection {
   background-color: var(--base2);
 }
