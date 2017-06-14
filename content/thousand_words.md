@@ -50,7 +50,7 @@ place before they come aboard. I close my curtain to save myself from poking and
 prying eyes that may or may not board the train, hoping they leave me in peace.
 It's been quite a while since I've come up with something to write.
 
-An electronic female voice announces the arival of my train on Pune station
+An electronic female voice announces the arrival of my train on Pune station
 sorely for the benefit of tea vendors to commence their sales pitch towards
 snoring passengers.  Long gone are the days of railway platforms which stay
 quiet in the night. I hear modest bustling around in my coach as someone who's
@@ -89,7 +89,7 @@ cable TV anyway.
 The train has left the station and gathered speed now. All those city houses and
 buildings are gone behind me and I see outskirts again. Small clusters of houses
 with small porches and even smaller lamps. They seem to be getting more and more
-sparse now. The train is superfast. Very soon the only thing I can see ouside
+sparse now. The train is superfast. Very soon the only thing I can see outside
 are pinpricks of white light and the reflection of my own laptop screen on the
 window. I try to peer into the darkness and see an isolated light in the
 distance. I wonder what it is. Some old shack in which someone might be sleeping
