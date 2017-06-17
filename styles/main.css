@@ -91,7 +91,7 @@ body {
   font-weight: 400;
   background-color: var(--base3);
   /* background-color: var(--base03); */
-  color: var(--base00);
+  color: var(--base01);
 }
 
 ::selection {
@@ -175,7 +175,8 @@ hr {
 }
 
 .main .content {
-  line-height: 1.35em;
+  line-height: 1.25em;
+  /* font-size: 1.6em; */
   /* letter-spacing: 0.5px; */
   text-align: justify;
   padding: 1em;
@@ -260,6 +261,6 @@ footer {
     flex: 1 1 500px;
   }
   .main .content {
-    font-size: 1.5em;
+    font-size: 1.6em;
   }
 }

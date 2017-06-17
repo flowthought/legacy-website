@@ -127,7 +127,7 @@ body {
 
 .main {
   order: 2;
-  padding: 5px;
+  padding-top: 1em;
 }
 
 .aside-right {
@@ -170,8 +170,8 @@ h1 {
 }
 
 .main .content {
-  font-size: 1.5em;
-  line-height: 1.35em;
+  font-size: 1.6em;
+  line-height: 1.25em;
   /* letter-spacing: 0.5px; */
   text-align: justify;
 }
