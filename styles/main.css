@@ -51,7 +51,7 @@ table {
 /* Supplementary additions */
 a {
   color: inherit;
-  cursor: inherit;
+  cursor: pointer;
   text-decoration: none;
 }
 ol {
